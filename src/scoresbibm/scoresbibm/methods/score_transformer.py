@@ -12,6 +12,8 @@ from scoresbibm.tasks.base_task import base_batch_sampler
 from scoresbibm.utils.condition_masks import get_condition_mask_fn
 from scoresbibm.utils.edge_masks import get_edge_mask_fn
 
+import sys
+
 def mean_std_per_node_id(data, node_ids):
     node_ids = node_ids.reshape(-1)
     mean = []
@@ -53,12 +55,13 @@ def run_train_transformer_model(
     batch_sampler,
     loss_fn,
     print_every=100,
-    val_every=100,
+    val_every=1000,
     validation_fraction=0.05,
     val_repeat=2,
     val_error_ratio=1.1,
     stop_early_count=5,
 ):
+
     # Set up stuff for multi-device training
     num_devices = jax.device_count()
     batch_size_per_device = batch_size // num_devices
@@ -101,7 +104,9 @@ def run_train_transformer_model(
     for j in range(total_number_steps):
         key, key_batch, key_update, key_val = jax.random.split(key, 4)
         data_batch, node_id_batch, meta_data_batch = sampler(key_batch, batch_size_per_device)
+        replicated_j = jax.device_put_replicated(j, jax.local_devices())
         loss, replicated_params, replicated_opt_state = update(
+            replicated_j,
             replicated_params,
             replicated_opt_state,
             jax.random.split(key_update, (num_devices,)),
@@ -116,13 +121,14 @@ def run_train_transformer_model(
             l_train = 0.9 * l_train + 0.1 * loss[0]
 
         # Validation loss
-        if validation_fraction > 0 and ((j % val_every) == 0) and j > 50:
+        if validation_fraction > 0 and ((j % 1000) == 0) and j > 50:
             l_val = loss_fn(
                 jax.tree_map(lambda x: x[0], replicated_params),
                 key_val,
                 data_val,
                 node_id,
                 meta_data_val,
+                j
             )
 
             if l_val / l_train > val_error_ratio:
@@ -134,16 +140,17 @@ def run_train_transformer_model(
                 min_l_val = l_val
                 early_stopping_params = jax.tree_map(lambda x: x[0], replicated_params)
 
-        if early_stopping_counter > stop_early_count:
-            return early_stopping_params, jax.tree_map(
-                lambda x: x[0], replicated_opt_state
-            )
+        #if early_stopping_counter > stop_early_count:
+        #    return early_stopping_params, jax.tree_map(
+        #        lambda x: x[0], replicated_opt_state
+        #    )
 
         # Print
-        if (j % print_every) == 0:
-            print("Train loss: ", l_train)
-            if l_val is not None:
-                print("Validation loss: ", l_val, early_stopping_counter)
+        #if (j % 1000) == 0:
+            #print(f"Actual Loss: {loss}, Weighted Average Loss: {l_train}")
+            #if l_val is not None:
+                #print("Validation Loss: ", l_val, early_stopping_counter)
+
 
     params = jax.tree_map(lambda x: x[0], replicated_params)
     opt_state = jax.tree_map(lambda x: x[0], replicated_opt_state)
@@ -235,7 +242,7 @@ def train_transformer_model(task, data, method_cfg, rng):
 
     # Training loop
     @jax.jit
-    def loss_fn(params, key, data, node_id, meta_data):
+    def loss_fn(params, key, data, node_id, meta_data, j):
         key_times, key_loss, key_condition = jax.random.split(key, 3)
         times = jax.random.uniform(
             key_times, (data.shape[0],), minval=T_min, maxval=T_max
@@ -252,6 +259,7 @@ def train_transformer_model(task, data, method_cfg, rng):
 
 
         loss = denoising_score_matching_loss(
+            j,
             params,
             key_loss,
             times,
@@ -270,8 +278,8 @@ def train_transformer_model(task, data, method_cfg, rng):
         return loss
 
     @partial(jax.pmap, axis_name="num_devices")
-    def update(params, opt_state, key, data, node_id, meta_data):
-        loss, grads = jax.value_and_grad(loss_fn)(params, key, data, node_id, meta_data)
+    def update(j, params, opt_state, key, data, node_id, meta_data):
+        loss, grads = jax.value_and_grad(loss_fn)(params, key, data, node_id, meta_data, j)
 
         loss = jax.lax.pmean(loss, axis_name="num_devices")
         grads = jax.lax.pmean(grads, axis_name="num_devices")

@@ -5,10 +5,14 @@ from scoresbibm.tasks.all_conditional_tasks import TwoMoonsAllConditionalTask, S
 from scoresbibm.tasks.unstructured_tasks import LotkaVolterraTask, SIRTask
 from scoresbibm.tasks.hhtask import HHTask
 
+from scoresbibm.tasks.custom_tasks import Mot
+
 
 def get_task(name: str, backend: str = "jax"):
     if name == "gaussian_linear":
         return LinearGaussian(backend=backend)
+    elif name == "mot":
+        return Mot(backend=backend)
     elif name == "gaussian_mixture":
         return MixtureGaussian(backend=backend)
     elif name == "two_moons":

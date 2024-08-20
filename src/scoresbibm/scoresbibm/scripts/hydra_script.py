@@ -103,49 +103,52 @@ def score_sbi(cfg: DictConfig):
         model.set_default_sampling_kwargs(**dict(cfg.method.posterior))
         time_train = None
         log.info(f"Model loaded")
-    del data 
+    del data
 
-    # Evaluate
-    log.info(f"Evaluating method: {cfg.method.name}")
-    metrics = cfg.eval["metric"]
-    metrics_results = {}
-    for m, metric_params in metrics.items():
-        log.info(f"Evaluating metric: {m}")
-        rng, rng_eval = jax.random.split(rng)
-        
-        if m == "none":
-            continue
-        elif "c2st" in m:
-            metric_params = dict(metric_params)
-            metric_fn = get_metric(str(m))
-            num_samples = metric_params.pop("num_samples", 1000)
-            num_evaluations = metric_params.pop("num_evaluations", 50)
+    if cfg.task.name == 'mot':
+        print('Custom data identified, skipping evaluation.')
+    else:
+        # Evaluate
+        log.info(f"Evaluating method: {cfg.method.name}")
+        metrics = cfg.eval["metric"]
+        metrics_results = {}
+        for m, metric_params in metrics.items():
+            log.info(f"Evaluating metric: {m}")
+            rng, rng_eval = jax.random.split(rng)
+
+            if m == "none":
+                continue
+            elif "c2st" in m:
+                metric_params = dict(metric_params)
+                metric_fn = get_metric(str(m))
+                num_samples = metric_params.pop("num_samples", 1000)
+                num_evaluations = metric_params.pop("num_evaluations", 50)
+
+
+                if issubclass(type(task), InferenceTask):
+                    metric_values, eval_time = eval_inference_task(task, model, metric_fn, metric_params, rng_eval, num_samples=num_samples, num_evaluations=num_evaluations)
+                elif issubclass(task.__class__, UnstructuredTask):
+                    metric_values, eval_time = eval_unstructured_task(task, model, metric_fn, metric_params, rng_eval, num_samples=num_samples, num_evaluations=num_evaluations)
+                elif issubclass(task.__class__, AllConditionalTask):
+                    metric_values, eval_time = eval_all_conditional_task(task, model, metric_fn, metric_params, rng_eval, num_samples=num_samples, num_evaluations=num_evaluations)
+                else:
+                    raise ValueError("Task not recognized.")
+            elif "nll" in m:
+                metric_values, eval_time = eval_negative_log_likelihood(task, model, metric_params, rng_eval)
+            elif "cov" in m:
+                metric_values, eval_time = eval_coverage(task, model, metric_params, rng_eval)
+                print("Coverage: ", metric_values)
+            else :
+                raise NotImplementedError(f"Metric {m} not implemented.")
+
+            if metric_values is not None:
+                metrics_results[m] = metric_values
             
-            
-            if issubclass(type(task), InferenceTask):
-                metric_values, eval_time = eval_inference_task(task, model, metric_fn, metric_params, rng_eval, num_samples=num_samples, num_evaluations=num_evaluations)
-            elif issubclass(task.__class__, UnstructuredTask):
-                metric_values, eval_time = eval_unstructured_task(task, model, metric_fn, metric_params, rng_eval, num_samples=num_samples, num_evaluations=num_evaluations)
-            elif issubclass(task.__class__, AllConditionalTask):
-                metric_values, eval_time = eval_all_conditional_task(task, model, metric_fn, metric_params, rng_eval, num_samples=num_samples, num_evaluations=num_evaluations)
-            else:
-                raise ValueError("Task not recognized.")
-        elif "nll" in m:
-            metric_values, eval_time = eval_negative_log_likelihood(task, model, metric_params, rng_eval)
-        elif "cov" in m:
-            metric_values, eval_time = eval_coverage(task, model, metric_params, rng_eval)
-            print("Coverage: ", metric_values)
-        else :
-            raise NotImplementedError(f"Metric {m} not implemented.")
-            
-        if metric_values is not None:
-            metrics_results[m] = metric_values
-            
-        
-    if len(metrics_results) == 0:
-        # To get a summary entry for the model
-        metrics_results["none"] = None
-        eval_time = None
+
+        if len(metrics_results) == 0:
+            # To get a summary entry for the model
+            metrics_results["none"] = None
+            eval_time = None
         
     # Saving results
     is_save_model = cfg.save_model
@@ -170,7 +173,7 @@ def score_sbi(cfg: DictConfig):
                 for m, vals in metrics_results.items():
                     save_summary(output_super_dir, cfg.method.name, cfg.task.name, cfg.task.num_simulations, model_id, m, vals, seed, time_train, eval_time, cfg)
             except Exception as e:
-                log.info("Tried to save summary, but failed.")
+                log.info("Tried to save summary, but failed. This is expected with custom data.")
                 log.info(e)
         else:
             model_id = cfg.model_id

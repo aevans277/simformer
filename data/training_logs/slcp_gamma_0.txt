@@ -1,0 +1,421 @@
+Iteration: 0, Loss: 431.3658142089844, Base Loss: 431.3658142089844, Regularisation Term: 0.0, Hessian Trace: 29.494525909423828
+Iteration: 1000, Loss: 260.4189147949219, Base Loss: 260.4189147949219, Regularisation Term: 0.0, Hessian Trace: -1.3213374614715576
+Iteration: 1000, Loss: 262.8875732421875, Base Loss: 262.8875732421875, Regularisation Term: 0.0, Hessian Trace: -0.9264524579048157
+Iteration: 2000, Loss: 253.623046875, Base Loss: 253.623046875, Regularisation Term: 0.0, Hessian Trace: -1.3164359331130981
+Iteration: 2000, Loss: 251.78179931640625, Base Loss: 251.78179931640625, Regularisation Term: 0.0, Hessian Trace: -1.3314170837402344
+Iteration: 3000, Loss: 247.61859130859375, Base Loss: 247.61859130859375, Regularisation Term: 0.0, Hessian Trace: -1.2844595909118652
+Iteration: 3000, Loss: 250.187744140625, Base Loss: 250.187744140625, Regularisation Term: 0.0, Hessian Trace: -1.4899373054504395
+Iteration: 4000, Loss: 249.9602813720703, Base Loss: 249.9602813720703, Regularisation Term: 0.0, Hessian Trace: -2.180004358291626
+Iteration: 4000, Loss: 250.42568969726562, Base Loss: 250.42568969726562, Regularisation Term: 0.0, Hessian Trace: -2.3007097244262695
+Iteration: 5000, Loss: 247.53030395507812, Base Loss: 247.53030395507812, Regularisation Term: 0.0, Hessian Trace: -1.8180242776870728
+Iteration: 5000, Loss: 250.8524169921875, Base Loss: 250.8524169921875, Regularisation Term: 0.0, Hessian Trace: -1.8719228506088257
+Iteration: 6000, Loss: 247.72254943847656, Base Loss: 247.72254943847656, Regularisation Term: 0.0, Hessian Trace: -2.9526526927948
+Iteration: 6000, Loss: 249.10476684570312, Base Loss: 249.10476684570312, Regularisation Term: 0.0, Hessian Trace: -3.041440010070801
+Iteration: 7000, Loss: 248.7308807373047, Base Loss: 248.7308807373047, Regularisation Term: 0.0, Hessian Trace: -1.4212878942489624
+Iteration: 7000, Loss: 247.9340362548828, Base Loss: 247.9340362548828, Regularisation Term: 0.0, Hessian Trace: -1.5830178260803223
+Iteration: 8000, Loss: 247.6477508544922, Base Loss: 247.6477508544922, Regularisation Term: 0.0, Hessian Trace: -2.756748676300049
+Iteration: 8000, Loss: 243.9960479736328, Base Loss: 243.9960479736328, Regularisation Term: 0.0, Hessian Trace: -2.52647066116333
+Iteration: 9000, Loss: 250.23153686523438, Base Loss: 250.23153686523438, Regularisation Term: 0.0, Hessian Trace: -2.971675395965576
+Iteration: 9000, Loss: 243.41738891601562, Base Loss: 243.41738891601562, Regularisation Term: 0.0, Hessian Trace: -2.998450994491577
+Iteration: 10000, Loss: 249.35897827148438, Base Loss: 249.35897827148438, Regularisation Term: 0.0, Hessian Trace: -3.2101986408233643
+Iteration: 10000, Loss: 250.2659454345703, Base Loss: 250.2659454345703, Regularisation Term: 0.0, Hessian Trace: -3.017652988433838
+Iteration: 11000, Loss: 249.1067657470703, Base Loss: 249.1067657470703, Regularisation Term: 0.0, Hessian Trace: -3.686405658721924
+Iteration: 11000, Loss: 248.30044555664062, Base Loss: 248.30044555664062, Regularisation Term: 0.0, Hessian Trace: -4.25429105758667
+Iteration: 12000, Loss: 247.5674285888672, Base Loss: 247.5674285888672, Regularisation Term: 0.0, Hessian Trace: -4.760387420654297
+Iteration: 12000, Loss: 244.23159790039062, Base Loss: 244.23159790039062, Regularisation Term: 0.0, Hessian Trace: -4.6424560546875
+Iteration: 13000, Loss: 247.17800903320312, Base Loss: 247.17800903320312, Regularisation Term: 0.0, Hessian Trace: -4.060645580291748
+Iteration: 13000, Loss: 239.4687957763672, Base Loss: 239.4687957763672, Regularisation Term: 0.0, Hessian Trace: -3.698909282684326
+Iteration: 14000, Loss: 240.81698608398438, Base Loss: 240.81698608398438, Regularisation Term: 0.0, Hessian Trace: -5.598506927490234
+Iteration: 14000, Loss: 242.28724670410156, Base Loss: 242.28724670410156, Regularisation Term: 0.0, Hessian Trace: -5.50250768661499
+Iteration: 15000, Loss: 251.17132568359375, Base Loss: 251.17132568359375, Regularisation Term: 0.0, Hessian Trace: -4.815417766571045
+Iteration: 15000, Loss: 246.87879943847656, Base Loss: 246.87879943847656, Regularisation Term: 0.0, Hessian Trace: -4.278374671936035
+Iteration: 16000, Loss: 246.42498779296875, Base Loss: 246.42498779296875, Regularisation Term: 0.0, Hessian Trace: -4.1937456130981445
+Iteration: 16000, Loss: 243.2782440185547, Base Loss: 243.2782440185547, Regularisation Term: 0.0, Hessian Trace: -4.368696212768555
+Iteration: 17000, Loss: 245.68894958496094, Base Loss: 245.68894958496094, Regularisation Term: 0.0, Hessian Trace: -4.959841728210449
+Iteration: 17000, Loss: 245.4199981689453, Base Loss: 245.4199981689453, Regularisation Term: 0.0, Hessian Trace: -4.828723430633545
+Iteration: 18000, Loss: 246.33270263671875, Base Loss: 246.33270263671875, Regularisation Term: 0.0, Hessian Trace: -4.989950180053711
+Iteration: 18000, Loss: 243.45059204101562, Base Loss: 243.45059204101562, Regularisation Term: 0.0, Hessian Trace: -4.864234924316406
+Iteration: 19000, Loss: 245.93247985839844, Base Loss: 245.93247985839844, Regularisation Term: 0.0, Hessian Trace: -4.710065841674805
+Iteration: 19000, Loss: 246.26797485351562, Base Loss: 246.26797485351562, Regularisation Term: 0.0, Hessian Trace: -4.9864702224731445
+Iteration: 20000, Loss: 247.74449157714844, Base Loss: 247.74449157714844, Regularisation Term: 0.0, Hessian Trace: -6.3626275062561035
+Iteration: 20000, Loss: 243.40516662597656, Base Loss: 243.40516662597656, Regularisation Term: 0.0, Hessian Trace: -6.238100051879883
+Iteration: 21000, Loss: 244.61392211914062, Base Loss: 244.61392211914062, Regularisation Term: 0.0, Hessian Trace: -5.083237171173096
+Iteration: 21000, Loss: 246.135498046875, Base Loss: 246.135498046875, Regularisation Term: 0.0, Hessian Trace: -4.930437088012695
+Iteration: 22000, Loss: 247.33245849609375, Base Loss: 247.33245849609375, Regularisation Term: 0.0, Hessian Trace: -5.098390579223633
+Iteration: 22000, Loss: 245.40892028808594, Base Loss: 245.40892028808594, Regularisation Term: 0.0, Hessian Trace: -5.261279106140137
+Iteration: 23000, Loss: 244.32595825195312, Base Loss: 244.32595825195312, Regularisation Term: 0.0, Hessian Trace: -6.139796733856201
+Iteration: 23000, Loss: 239.7656707763672, Base Loss: 239.7656707763672, Regularisation Term: 0.0, Hessian Trace: -6.133825778961182
+Iteration: 24000, Loss: 251.4181671142578, Base Loss: 251.4181671142578, Regularisation Term: 0.0, Hessian Trace: -4.536983013153076
+Iteration: 24000, Loss: 246.10569763183594, Base Loss: 246.10569763183594, Regularisation Term: 0.0, Hessian Trace: -5.0487284660339355
+Iteration: 25000, Loss: 239.15138244628906, Base Loss: 239.15138244628906, Regularisation Term: 0.0, Hessian Trace: -3.8084185123443604
+Iteration: 25000, Loss: 238.2612762451172, Base Loss: 238.2612762451172, Regularisation Term: 0.0, Hessian Trace: -4.200960159301758
+Iteration: 26000, Loss: 246.95294189453125, Base Loss: 246.95294189453125, Regularisation Term: 0.0, Hessian Trace: -4.933976650238037
+Iteration: 26000, Loss: 245.95046997070312, Base Loss: 245.95046997070312, Regularisation Term: 0.0, Hessian Trace: -5.186697483062744
+Iteration: 27000, Loss: 254.24404907226562, Base Loss: 254.24404907226562, Regularisation Term: 0.0, Hessian Trace: -4.907852649688721
+Iteration: 27000, Loss: 243.95596313476562, Base Loss: 243.95596313476562, Regularisation Term: 0.0, Hessian Trace: -4.196081638336182
+Iteration: 28000, Loss: 245.6385955810547, Base Loss: 245.6385955810547, Regularisation Term: 0.0, Hessian Trace: -4.855906009674072
+Iteration: 28000, Loss: 246.38674926757812, Base Loss: 246.38674926757812, Regularisation Term: 0.0, Hessian Trace: -4.395612716674805
+Iteration: 29000, Loss: 239.61729431152344, Base Loss: 239.61729431152344, Regularisation Term: 0.0, Hessian Trace: -4.520323753356934
+Iteration: 29000, Loss: 247.6652374267578, Base Loss: 247.6652374267578, Regularisation Term: 0.0, Hessian Trace: -5.185824871063232
+Iteration: 30000, Loss: 246.38258361816406, Base Loss: 246.38258361816406, Regularisation Term: 0.0, Hessian Trace: -4.604413986206055
+Iteration: 30000, Loss: 244.21888732910156, Base Loss: 244.21888732910156, Regularisation Term: 0.0, Hessian Trace: -4.616297245025635
+Iteration: 31000, Loss: 243.83973693847656, Base Loss: 243.83973693847656, Regularisation Term: 0.0, Hessian Trace: -4.536269187927246
+Iteration: 31000, Loss: 241.05068969726562, Base Loss: 241.05068969726562, Regularisation Term: 0.0, Hessian Trace: -5.153446674346924
+Iteration: 32000, Loss: 241.57037353515625, Base Loss: 241.57037353515625, Regularisation Term: 0.0, Hessian Trace: -4.388448715209961
+Iteration: 32000, Loss: 247.27584838867188, Base Loss: 247.27584838867188, Regularisation Term: 0.0, Hessian Trace: -4.397915840148926
+Iteration: 33000, Loss: 242.2633514404297, Base Loss: 242.2633514404297, Regularisation Term: 0.0, Hessian Trace: -3.663588285446167
+Iteration: 33000, Loss: 241.4217987060547, Base Loss: 241.4217987060547, Regularisation Term: 0.0, Hessian Trace: -4.494234561920166
+Iteration: 34000, Loss: 247.21688842773438, Base Loss: 247.21688842773438, Regularisation Term: 0.0, Hessian Trace: -4.9632463455200195
+Iteration: 34000, Loss: 240.65199279785156, Base Loss: 240.65199279785156, Regularisation Term: 0.0, Hessian Trace: -5.408692359924316
+Iteration: 35000, Loss: 239.61485290527344, Base Loss: 239.61485290527344, Regularisation Term: 0.0, Hessian Trace: -4.75172233581543
+Iteration: 35000, Loss: 246.7826690673828, Base Loss: 246.7826690673828, Regularisation Term: 0.0, Hessian Trace: -5.532877445220947
+Iteration: 36000, Loss: 243.27777099609375, Base Loss: 243.27777099609375, Regularisation Term: 0.0, Hessian Trace: -4.732571601867676
+Iteration: 36000, Loss: 247.37049865722656, Base Loss: 247.37049865722656, Regularisation Term: 0.0, Hessian Trace: -4.884497165679932
+Iteration: 37000, Loss: 242.14732360839844, Base Loss: 242.14732360839844, Regularisation Term: 0.0, Hessian Trace: -5.249950408935547
+Iteration: 37000, Loss: 242.56101989746094, Base Loss: 242.56101989746094, Regularisation Term: 0.0, Hessian Trace: -5.129230499267578
+Iteration: 38000, Loss: 244.49374389648438, Base Loss: 244.49374389648438, Regularisation Term: 0.0, Hessian Trace: -4.316415786743164
+Iteration: 38000, Loss: 245.36607360839844, Base Loss: 245.36607360839844, Regularisation Term: 0.0, Hessian Trace: -4.644101142883301
+Iteration: 39000, Loss: 241.11672973632812, Base Loss: 241.11672973632812, Regularisation Term: 0.0, Hessian Trace: -4.729841232299805
+Iteration: 39000, Loss: 242.4701690673828, Base Loss: 242.4701690673828, Regularisation Term: 0.0, Hessian Trace: -5.326146125793457
+Iteration: 40000, Loss: 241.09298706054688, Base Loss: 241.09298706054688, Regularisation Term: 0.0, Hessian Trace: -4.704502105712891
+Iteration: 40000, Loss: 243.02439880371094, Base Loss: 243.02439880371094, Regularisation Term: 0.0, Hessian Trace: -5.272517204284668
+Iteration: 41000, Loss: 248.0528564453125, Base Loss: 248.0528564453125, Regularisation Term: 0.0, Hessian Trace: -5.740253448486328
+Iteration: 41000, Loss: 243.61123657226562, Base Loss: 243.61123657226562, Regularisation Term: 0.0, Hessian Trace: -5.652986526489258
+Iteration: 42000, Loss: 246.34657287597656, Base Loss: 246.34657287597656, Regularisation Term: 0.0, Hessian Trace: -5.6440253257751465
+Iteration: 42000, Loss: 249.82444763183594, Base Loss: 249.82444763183594, Regularisation Term: 0.0, Hessian Trace: -6.20005464553833
+Iteration: 43000, Loss: 237.43338012695312, Base Loss: 237.43338012695312, Regularisation Term: 0.0, Hessian Trace: -5.1182732582092285
+Iteration: 43000, Loss: 250.7201385498047, Base Loss: 250.7201385498047, Regularisation Term: 0.0, Hessian Trace: -4.826147556304932
+Iteration: 44000, Loss: 243.39022827148438, Base Loss: 243.39022827148438, Regularisation Term: 0.0, Hessian Trace: -6.057201862335205
+Iteration: 44000, Loss: 238.68634033203125, Base Loss: 238.68634033203125, Regularisation Term: 0.0, Hessian Trace: -5.681863784790039
+Iteration: 45000, Loss: 246.59275817871094, Base Loss: 246.59275817871094, Regularisation Term: 0.0, Hessian Trace: -6.062790870666504
+Iteration: 45000, Loss: 245.32052612304688, Base Loss: 245.32052612304688, Regularisation Term: 0.0, Hessian Trace: -5.146326065063477
+Iteration: 46000, Loss: 241.490478515625, Base Loss: 241.490478515625, Regularisation Term: 0.0, Hessian Trace: -4.654768466949463
+Iteration: 46000, Loss: 240.29966735839844, Base Loss: 240.29966735839844, Regularisation Term: 0.0, Hessian Trace: -4.538206100463867
+Iteration: 47000, Loss: 239.95339965820312, Base Loss: 239.95339965820312, Regularisation Term: 0.0, Hessian Trace: -5.061287879943848
+Iteration: 47000, Loss: 247.4795379638672, Base Loss: 247.4795379638672, Regularisation Term: 0.0, Hessian Trace: -5.713482856750488
+Iteration: 48000, Loss: 241.08168029785156, Base Loss: 241.08168029785156, Regularisation Term: 0.0, Hessian Trace: -5.906409740447998
+Iteration: 48000, Loss: 244.94679260253906, Base Loss: 244.94679260253906, Regularisation Term: 0.0, Hessian Trace: -5.643470764160156
+Iteration: 49000, Loss: 239.5910186767578, Base Loss: 239.5910186767578, Regularisation Term: 0.0, Hessian Trace: -4.729659557342529
+Iteration: 49000, Loss: 243.75146484375, Base Loss: 243.75146484375, Regularisation Term: 0.0, Hessian Trace: -4.511469841003418
+Iteration: 50000, Loss: 237.27847290039062, Base Loss: 237.27847290039062, Regularisation Term: 0.0, Hessian Trace: -6.150943279266357
+Iteration: 50000, Loss: 244.98406982421875, Base Loss: 244.98406982421875, Regularisation Term: 0.0, Hessian Trace: -5.524529457092285
+Iteration: 51000, Loss: 241.37344360351562, Base Loss: 241.37344360351562, Regularisation Term: 0.0, Hessian Trace: -5.102386951446533
+Iteration: 51000, Loss: 248.2017364501953, Base Loss: 248.2017364501953, Regularisation Term: 0.0, Hessian Trace: -5.537102699279785
+Iteration: 52000, Loss: 243.04824829101562, Base Loss: 243.04824829101562, Regularisation Term: 0.0, Hessian Trace: -4.993719100952148
+Iteration: 52000, Loss: 247.5264892578125, Base Loss: 247.5264892578125, Regularisation Term: 0.0, Hessian Trace: -4.581300258636475
+Iteration: 53000, Loss: 241.1575469970703, Base Loss: 241.1575469970703, Regularisation Term: 0.0, Hessian Trace: -4.832455158233643
+Iteration: 53000, Loss: 245.6759490966797, Base Loss: 245.6759490966797, Regularisation Term: 0.0, Hessian Trace: -5.683549404144287
+Iteration: 54000, Loss: 239.1184539794922, Base Loss: 239.1184539794922, Regularisation Term: 0.0, Hessian Trace: -4.481468677520752
+Iteration: 54000, Loss: 246.83016967773438, Base Loss: 246.83016967773438, Regularisation Term: 0.0, Hessian Trace: -5.347451686859131
+Iteration: 55000, Loss: 239.8610382080078, Base Loss: 239.8610382080078, Regularisation Term: 0.0, Hessian Trace: -6.4524359703063965
+Iteration: 55000, Loss: 252.25364685058594, Base Loss: 252.25364685058594, Regularisation Term: 0.0, Hessian Trace: -5.952812194824219
+Iteration: 56000, Loss: 236.51844787597656, Base Loss: 236.51844787597656, Regularisation Term: 0.0, Hessian Trace: -5.413567066192627
+Iteration: 56000, Loss: 245.27931213378906, Base Loss: 245.27931213378906, Regularisation Term: 0.0, Hessian Trace: -5.701648235321045
+Iteration: 57000, Loss: 243.39389038085938, Base Loss: 243.39389038085938, Regularisation Term: 0.0, Hessian Trace: -5.391595363616943
+Iteration: 57000, Loss: 243.02049255371094, Base Loss: 243.02049255371094, Regularisation Term: 0.0, Hessian Trace: -4.844419479370117
+Iteration: 58000, Loss: 248.51876831054688, Base Loss: 248.51876831054688, Regularisation Term: 0.0, Hessian Trace: -6.26649284362793
+Iteration: 58000, Loss: 244.8603973388672, Base Loss: 244.8603973388672, Regularisation Term: 0.0, Hessian Trace: -5.655899524688721
+Iteration: 59000, Loss: 241.1708221435547, Base Loss: 241.1708221435547, Regularisation Term: 0.0, Hessian Trace: -5.390087127685547
+Iteration: 59000, Loss: 248.1346435546875, Base Loss: 248.1346435546875, Regularisation Term: 0.0, Hessian Trace: -6.228908061981201
+Iteration: 60000, Loss: 239.98001098632812, Base Loss: 239.98001098632812, Regularisation Term: 0.0, Hessian Trace: -5.979559898376465
+Iteration: 60000, Loss: 245.04837036132812, Base Loss: 245.04837036132812, Regularisation Term: 0.0, Hessian Trace: -5.660750389099121
+Iteration: 61000, Loss: 235.50830078125, Base Loss: 235.50830078125, Regularisation Term: 0.0, Hessian Trace: -5.9229044914245605
+Iteration: 61000, Loss: 247.75914001464844, Base Loss: 247.75914001464844, Regularisation Term: 0.0, Hessian Trace: -5.765997409820557
+Iteration: 62000, Loss: 237.6913604736328, Base Loss: 237.6913604736328, Regularisation Term: 0.0, Hessian Trace: -6.474432468414307
+Iteration: 62000, Loss: 248.4157257080078, Base Loss: 248.4157257080078, Regularisation Term: 0.0, Hessian Trace: -6.448922634124756
+Iteration: 63000, Loss: 233.11334228515625, Base Loss: 233.11334228515625, Regularisation Term: 0.0, Hessian Trace: -6.280848503112793
+Iteration: 63000, Loss: 249.4624481201172, Base Loss: 249.4624481201172, Regularisation Term: 0.0, Hessian Trace: -6.746338844299316
+Iteration: 64000, Loss: 244.4014129638672, Base Loss: 244.4014129638672, Regularisation Term: 0.0, Hessian Trace: -6.147922992706299
+Iteration: 64000, Loss: 252.27029418945312, Base Loss: 252.27029418945312, Regularisation Term: 0.0, Hessian Trace: -6.38220739364624
+Iteration: 65000, Loss: 237.4454803466797, Base Loss: 237.4454803466797, Regularisation Term: 0.0, Hessian Trace: -6.384181976318359
+Iteration: 65000, Loss: 251.3900146484375, Base Loss: 251.3900146484375, Regularisation Term: 0.0, Hessian Trace: -5.817864418029785
+Iteration: 66000, Loss: 233.77394104003906, Base Loss: 233.77394104003906, Regularisation Term: 0.0, Hessian Trace: -6.0920610427856445
+Iteration: 66000, Loss: 246.96343994140625, Base Loss: 246.96343994140625, Regularisation Term: 0.0, Hessian Trace: -6.622961521148682
+Iteration: 67000, Loss: 239.39736938476562, Base Loss: 239.39736938476562, Regularisation Term: 0.0, Hessian Trace: -7.435609340667725
+Iteration: 67000, Loss: 249.30914306640625, Base Loss: 249.30914306640625, Regularisation Term: 0.0, Hessian Trace: -6.514544486999512
+Iteration: 68000, Loss: 250.16970825195312, Base Loss: 250.16970825195312, Regularisation Term: 0.0, Hessian Trace: -6.030035972595215
+Iteration: 68000, Loss: 247.7034149169922, Base Loss: 247.7034149169922, Regularisation Term: 0.0, Hessian Trace: -5.829257011413574
+Iteration: 69000, Loss: 237.36578369140625, Base Loss: 237.36578369140625, Regularisation Term: 0.0, Hessian Trace: -5.255843639373779
+Iteration: 69000, Loss: 248.83499145507812, Base Loss: 248.83499145507812, Regularisation Term: 0.0, Hessian Trace: -6.160452842712402
+Iteration: 70000, Loss: 240.47097778320312, Base Loss: 240.47097778320312, Regularisation Term: 0.0, Hessian Trace: -6.357198715209961
+Iteration: 70000, Loss: 247.29904174804688, Base Loss: 247.29904174804688, Regularisation Term: 0.0, Hessian Trace: -6.00167989730835
+Iteration: 71000, Loss: 243.1954803466797, Base Loss: 243.1954803466797, Regularisation Term: 0.0, Hessian Trace: -6.180248737335205
+Iteration: 71000, Loss: 250.51202392578125, Base Loss: 250.51202392578125, Regularisation Term: 0.0, Hessian Trace: -6.617864608764648
+Iteration: 72000, Loss: 245.27532958984375, Base Loss: 245.27532958984375, Regularisation Term: 0.0, Hessian Trace: -6.665293216705322
+Iteration: 72000, Loss: 245.97679138183594, Base Loss: 245.97679138183594, Regularisation Term: 0.0, Hessian Trace: -6.347939491271973
+Iteration: 73000, Loss: 241.12890625, Base Loss: 241.12890625, Regularisation Term: 0.0, Hessian Trace: -5.776340484619141
+Iteration: 73000, Loss: 250.99073791503906, Base Loss: 250.99073791503906, Regularisation Term: 0.0, Hessian Trace: -6.054044723510742
+Iteration: 74000, Loss: 232.74542236328125, Base Loss: 232.74542236328125, Regularisation Term: 0.0, Hessian Trace: -6.985970973968506
+Iteration: 74000, Loss: 247.1916961669922, Base Loss: 247.1916961669922, Regularisation Term: 0.0, Hessian Trace: -6.345791816711426
+Iteration: 75000, Loss: 240.1969451904297, Base Loss: 240.1969451904297, Regularisation Term: 0.0, Hessian Trace: -6.421005725860596
+Iteration: 75000, Loss: 244.21347045898438, Base Loss: 244.21347045898438, Regularisation Term: 0.0, Hessian Trace: -6.867749214172363
+Iteration: 76000, Loss: 244.19493103027344, Base Loss: 244.19493103027344, Regularisation Term: 0.0, Hessian Trace: -6.508810043334961
+Iteration: 76000, Loss: 249.7454376220703, Base Loss: 249.7454376220703, Regularisation Term: 0.0, Hessian Trace: -6.793753623962402
+Iteration: 77000, Loss: 243.71408081054688, Base Loss: 243.71408081054688, Regularisation Term: 0.0, Hessian Trace: -6.22594690322876
+Iteration: 77000, Loss: 248.57723999023438, Base Loss: 248.57723999023438, Regularisation Term: 0.0, Hessian Trace: -6.8621110916137695
+Iteration: 78000, Loss: 241.33982849121094, Base Loss: 241.33982849121094, Regularisation Term: 0.0, Hessian Trace: -6.456996917724609
+Iteration: 78000, Loss: 252.22726440429688, Base Loss: 252.22726440429688, Regularisation Term: 0.0, Hessian Trace: -6.307983875274658
+Iteration: 79000, Loss: 236.86068725585938, Base Loss: 236.86068725585938, Regularisation Term: 0.0, Hessian Trace: -7.093307971954346
+Iteration: 79000, Loss: 250.2109375, Base Loss: 250.2109375, Regularisation Term: 0.0, Hessian Trace: -7.10991907119751
+Iteration: 80000, Loss: 235.88967895507812, Base Loss: 235.88967895507812, Regularisation Term: 0.0, Hessian Trace: -7.891715049743652
+Iteration: 80000, Loss: 249.2081756591797, Base Loss: 249.2081756591797, Regularisation Term: 0.0, Hessian Trace: -8.500720977783203
+Iteration: 81000, Loss: 238.7355194091797, Base Loss: 238.7355194091797, Regularisation Term: 0.0, Hessian Trace: -6.106836318969727
+Iteration: 81000, Loss: 245.881591796875, Base Loss: 245.881591796875, Regularisation Term: 0.0, Hessian Trace: -5.9662184715271
+Iteration: 82000, Loss: 241.93896484375, Base Loss: 241.93896484375, Regularisation Term: 0.0, Hessian Trace: -7.834965229034424
+Iteration: 82000, Loss: 248.4241485595703, Base Loss: 248.4241485595703, Regularisation Term: 0.0, Hessian Trace: -6.251839637756348
+Iteration: 83000, Loss: 240.59161376953125, Base Loss: 240.59161376953125, Regularisation Term: 0.0, Hessian Trace: -7.650235652923584
+Iteration: 83000, Loss: 247.7364959716797, Base Loss: 247.7364959716797, Regularisation Term: 0.0, Hessian Trace: -6.432065486907959
+Iteration: 84000, Loss: 240.7646942138672, Base Loss: 240.7646942138672, Regularisation Term: 0.0, Hessian Trace: -7.962523460388184
+Iteration: 84000, Loss: 249.4483642578125, Base Loss: 249.4483642578125, Regularisation Term: 0.0, Hessian Trace: -6.8643317222595215
+Iteration: 85000, Loss: 231.96107482910156, Base Loss: 231.96107482910156, Regularisation Term: 0.0, Hessian Trace: -7.129345417022705
+Iteration: 85000, Loss: 249.87388610839844, Base Loss: 249.87388610839844, Regularisation Term: 0.0, Hessian Trace: -6.827922344207764
+Iteration: 86000, Loss: 240.9872283935547, Base Loss: 240.9872283935547, Regularisation Term: 0.0, Hessian Trace: -7.896371364593506
+Iteration: 86000, Loss: 245.8876953125, Base Loss: 245.8876953125, Regularisation Term: 0.0, Hessian Trace: -6.244704723358154
+Iteration: 87000, Loss: 237.6901397705078, Base Loss: 237.6901397705078, Regularisation Term: 0.0, Hessian Trace: -6.588803768157959
+Iteration: 87000, Loss: 251.7010498046875, Base Loss: 251.7010498046875, Regularisation Term: 0.0, Hessian Trace: -6.6817626953125
+Iteration: 88000, Loss: 243.03494262695312, Base Loss: 243.03494262695312, Regularisation Term: 0.0, Hessian Trace: -6.8586745262146
+Iteration: 88000, Loss: 257.3859558105469, Base Loss: 257.3859558105469, Regularisation Term: 0.0, Hessian Trace: -7.707449436187744
+Iteration: 89000, Loss: 240.74533081054688, Base Loss: 240.74533081054688, Regularisation Term: 0.0, Hessian Trace: -7.329704284667969
+Iteration: 89000, Loss: 250.22384643554688, Base Loss: 250.22384643554688, Regularisation Term: 0.0, Hessian Trace: -8.153639793395996
+Iteration: 90000, Loss: 242.13636779785156, Base Loss: 242.13636779785156, Regularisation Term: 0.0, Hessian Trace: -7.535598278045654
+Iteration: 90000, Loss: 247.7771759033203, Base Loss: 247.7771759033203, Regularisation Term: 0.0, Hessian Trace: -7.639578819274902
+Iteration: 91000, Loss: 238.2310791015625, Base Loss: 238.2310791015625, Regularisation Term: 0.0, Hessian Trace: -7.5106964111328125
+Iteration: 91000, Loss: 254.2386932373047, Base Loss: 254.2386932373047, Regularisation Term: 0.0, Hessian Trace: -7.454697132110596
+Iteration: 92000, Loss: 230.88331604003906, Base Loss: 230.88331604003906, Regularisation Term: 0.0, Hessian Trace: -5.581974506378174
+Iteration: 92000, Loss: 248.9762420654297, Base Loss: 248.9762420654297, Regularisation Term: 0.0, Hessian Trace: -6.718894004821777
+Iteration: 93000, Loss: 238.4332275390625, Base Loss: 238.4332275390625, Regularisation Term: 0.0, Hessian Trace: -7.563107490539551
+Iteration: 93000, Loss: 248.51402282714844, Base Loss: 248.51402282714844, Regularisation Term: 0.0, Hessian Trace: -7.894172668457031
+Iteration: 94000, Loss: 240.24627685546875, Base Loss: 240.24627685546875, Regularisation Term: 0.0, Hessian Trace: -7.092471122741699
+Iteration: 94000, Loss: 244.6897430419922, Base Loss: 244.6897430419922, Regularisation Term: 0.0, Hessian Trace: -7.250256538391113
+Iteration: 95000, Loss: 245.37852478027344, Base Loss: 245.37852478027344, Regularisation Term: 0.0, Hessian Trace: -8.093100547790527
+Iteration: 95000, Loss: 261.445556640625, Base Loss: 261.445556640625, Regularisation Term: 0.0, Hessian Trace: -8.814990997314453
+Iteration: 96000, Loss: 239.7089080810547, Base Loss: 239.7089080810547, Regularisation Term: 0.0, Hessian Trace: -8.457728385925293
+Iteration: 96000, Loss: 246.3677978515625, Base Loss: 246.3677978515625, Regularisation Term: 0.0, Hessian Trace: -8.341680526733398
+Iteration: 97000, Loss: 233.10107421875, Base Loss: 233.10107421875, Regularisation Term: 0.0, Hessian Trace: -7.040445327758789
+Iteration: 97000, Loss: 250.9375457763672, Base Loss: 250.9375457763672, Regularisation Term: 0.0, Hessian Trace: -6.614759922027588
+Iteration: 98000, Loss: 239.029541015625, Base Loss: 239.029541015625, Regularisation Term: 0.0, Hessian Trace: -8.152111053466797
+Iteration: 98000, Loss: 256.7996520996094, Base Loss: 256.7996520996094, Regularisation Term: 0.0, Hessian Trace: -7.917660713195801
+Iteration: 99000, Loss: 239.49501037597656, Base Loss: 239.49501037597656, Regularisation Term: 0.0, Hessian Trace: -7.900552272796631
+Iteration: 99000, Loss: 250.59304809570312, Base Loss: 250.59304809570312, Regularisation Term: 0.0, Hessian Trace: -7.434882164001465
+Iteration: 100000, Loss: 248.3889617919922, Base Loss: 248.3889617919922, Regularisation Term: 0.0, Hessian Trace: -8.679661750793457
+Iteration: 100000, Loss: 256.1943359375, Base Loss: 256.1943359375, Regularisation Term: 0.0, Hessian Trace: -7.659847259521484
+Iteration: 101000, Loss: 235.28448486328125, Base Loss: 235.28448486328125, Regularisation Term: 0.0, Hessian Trace: -6.299337863922119
+Iteration: 101000, Loss: 254.76754760742188, Base Loss: 254.76754760742188, Regularisation Term: 0.0, Hessian Trace: -6.795568943023682
+Iteration: 102000, Loss: 239.44717407226562, Base Loss: 239.44717407226562, Regularisation Term: 0.0, Hessian Trace: -6.861772060394287
+Iteration: 102000, Loss: 252.82421875, Base Loss: 252.82421875, Regularisation Term: 0.0, Hessian Trace: -7.701284885406494
+Iteration: 103000, Loss: 242.953369140625, Base Loss: 242.953369140625, Regularisation Term: 0.0, Hessian Trace: -7.452112674713135
+Iteration: 103000, Loss: 253.8680419921875, Base Loss: 253.8680419921875, Regularisation Term: 0.0, Hessian Trace: -7.7805657386779785
+Iteration: 104000, Loss: 242.25238037109375, Base Loss: 242.25238037109375, Regularisation Term: 0.0, Hessian Trace: -8.106467247009277
+Iteration: 104000, Loss: 253.5719451904297, Base Loss: 253.5719451904297, Regularisation Term: 0.0, Hessian Trace: -8.629188537597656
+Iteration: 105000, Loss: 233.8385772705078, Base Loss: 233.8385772705078, Regularisation Term: 0.0, Hessian Trace: -7.975889682769775
+Iteration: 105000, Loss: 251.09959411621094, Base Loss: 251.09959411621094, Regularisation Term: 0.0, Hessian Trace: -8.431380271911621
+Iteration: 106000, Loss: 234.8692626953125, Base Loss: 234.8692626953125, Regularisation Term: 0.0, Hessian Trace: -7.701093673706055
+Iteration: 106000, Loss: 256.1245422363281, Base Loss: 256.1245422363281, Regularisation Term: 0.0, Hessian Trace: -8.137932777404785
+Iteration: 107000, Loss: 240.76467895507812, Base Loss: 240.76467895507812, Regularisation Term: 0.0, Hessian Trace: -8.33923625946045
+Iteration: 107000, Loss: 251.09962463378906, Base Loss: 251.09962463378906, Regularisation Term: 0.0, Hessian Trace: -8.234892845153809
+Iteration: 108000, Loss: 246.78456115722656, Base Loss: 246.78456115722656, Regularisation Term: 0.0, Hessian Trace: -6.28182315826416
+Iteration: 108000, Loss: 247.3391876220703, Base Loss: 247.3391876220703, Regularisation Term: 0.0, Hessian Trace: -6.876828193664551
+Iteration: 109000, Loss: 235.8226318359375, Base Loss: 235.8226318359375, Regularisation Term: 0.0, Hessian Trace: -6.964058876037598
+Iteration: 109000, Loss: 251.4920654296875, Base Loss: 251.4920654296875, Regularisation Term: 0.0, Hessian Trace: -8.760529518127441
+Iteration: 110000, Loss: 240.2425079345703, Base Loss: 240.2425079345703, Regularisation Term: 0.0, Hessian Trace: -9.040666580200195
+Iteration: 110000, Loss: 252.23634338378906, Base Loss: 252.23634338378906, Regularisation Term: 0.0, Hessian Trace: -8.538987159729004
+Iteration: 111000, Loss: 233.7349853515625, Base Loss: 233.7349853515625, Regularisation Term: 0.0, Hessian Trace: -8.06334400177002
+Iteration: 111000, Loss: 253.8396759033203, Base Loss: 253.8396759033203, Regularisation Term: 0.0, Hessian Trace: -10.059310913085938
+Iteration: 112000, Loss: 239.9449462890625, Base Loss: 239.9449462890625, Regularisation Term: 0.0, Hessian Trace: -9.577686309814453
+Iteration: 112000, Loss: 253.07382202148438, Base Loss: 253.07382202148438, Regularisation Term: 0.0, Hessian Trace: -10.494542121887207
+Iteration: 113000, Loss: 241.47018432617188, Base Loss: 241.47018432617188, Regularisation Term: 0.0, Hessian Trace: -7.021806240081787
+Iteration: 113000, Loss: 254.27633666992188, Base Loss: 254.27633666992188, Regularisation Term: 0.0, Hessian Trace: -8.2813138961792
+Iteration: 114000, Loss: 238.73373413085938, Base Loss: 238.73373413085938, Regularisation Term: 0.0, Hessian Trace: -9.67783260345459
+Iteration: 114000, Loss: 258.8052673339844, Base Loss: 258.8052673339844, Regularisation Term: 0.0, Hessian Trace: -8.772613525390625
+Iteration: 115000, Loss: 234.01512145996094, Base Loss: 234.01512145996094, Regularisation Term: 0.0, Hessian Trace: -8.53995132446289
+Iteration: 115000, Loss: 252.2169952392578, Base Loss: 252.2169952392578, Regularisation Term: 0.0, Hessian Trace: -8.076652526855469
+Iteration: 116000, Loss: 239.2008514404297, Base Loss: 239.2008514404297, Regularisation Term: 0.0, Hessian Trace: -8.155768394470215
+Iteration: 116000, Loss: 256.2129821777344, Base Loss: 256.2129821777344, Regularisation Term: 0.0, Hessian Trace: -9.795536041259766
+Iteration: 117000, Loss: 238.96109008789062, Base Loss: 238.96109008789062, Regularisation Term: 0.0, Hessian Trace: -10.989250183105469
+Iteration: 117000, Loss: 257.8586730957031, Base Loss: 257.8586730957031, Regularisation Term: 0.0, Hessian Trace: -9.123613357543945
+Iteration: 118000, Loss: 247.21759033203125, Base Loss: 247.21759033203125, Regularisation Term: 0.0, Hessian Trace: -9.556314468383789
+Iteration: 118000, Loss: 264.9911804199219, Base Loss: 264.9911804199219, Regularisation Term: 0.0, Hessian Trace: -10.567818641662598
+Iteration: 119000, Loss: 242.75213623046875, Base Loss: 242.75213623046875, Regularisation Term: 0.0, Hessian Trace: -9.275581359863281
+Iteration: 119000, Loss: 260.08367919921875, Base Loss: 260.08367919921875, Regularisation Term: 0.0, Hessian Trace: -8.727152824401855
+Iteration: 120000, Loss: 242.22801208496094, Base Loss: 242.22801208496094, Regularisation Term: 0.0, Hessian Trace: -10.485543251037598
+Iteration: 120000, Loss: 251.7565460205078, Base Loss: 251.7565460205078, Regularisation Term: 0.0, Hessian Trace: -9.534058570861816
+Iteration: 121000, Loss: 234.38160705566406, Base Loss: 234.38160705566406, Regularisation Term: 0.0, Hessian Trace: -9.504610061645508
+Iteration: 121000, Loss: 261.87457275390625, Base Loss: 261.87457275390625, Regularisation Term: 0.0, Hessian Trace: -9.861852645874023
+Iteration: 122000, Loss: 240.333740234375, Base Loss: 240.333740234375, Regularisation Term: 0.0, Hessian Trace: -10.585667610168457
+Iteration: 122000, Loss: 259.6569519042969, Base Loss: 259.6569519042969, Regularisation Term: 0.0, Hessian Trace: -10.196310043334961
+Iteration: 123000, Loss: 241.90814208984375, Base Loss: 241.90814208984375, Regularisation Term: 0.0, Hessian Trace: -10.685589790344238
+Iteration: 123000, Loss: 259.0839538574219, Base Loss: 259.0839538574219, Regularisation Term: 0.0, Hessian Trace: -9.463342666625977
+Iteration: 124000, Loss: 234.89488220214844, Base Loss: 234.89488220214844, Regularisation Term: 0.0, Hessian Trace: -11.413324356079102
+Iteration: 124000, Loss: 255.45294189453125, Base Loss: 255.45294189453125, Regularisation Term: 0.0, Hessian Trace: -9.583019256591797
+Iteration: 125000, Loss: 240.10560607910156, Base Loss: 240.10560607910156, Regularisation Term: 0.0, Hessian Trace: -11.186569213867188
+Iteration: 125000, Loss: 259.09295654296875, Base Loss: 259.09295654296875, Regularisation Term: 0.0, Hessian Trace: -10.966734886169434
+Iteration: 126000, Loss: 244.68545532226562, Base Loss: 244.68545532226562, Regularisation Term: 0.0, Hessian Trace: -12.395211219787598
+Iteration: 126000, Loss: 259.869384765625, Base Loss: 259.869384765625, Regularisation Term: 0.0, Hessian Trace: -12.346805572509766
+Iteration: 127000, Loss: 238.47508239746094, Base Loss: 238.47508239746094, Regularisation Term: 0.0, Hessian Trace: -10.230314254760742
+Iteration: 127000, Loss: 263.1986389160156, Base Loss: 263.1986389160156, Regularisation Term: 0.0, Hessian Trace: -9.663168907165527
+Iteration: 128000, Loss: 236.98635864257812, Base Loss: 236.98635864257812, Regularisation Term: 0.0, Hessian Trace: -11.095170021057129
+Iteration: 128000, Loss: 260.12158203125, Base Loss: 260.12158203125, Regularisation Term: 0.0, Hessian Trace: -11.166948318481445
+Iteration: 129000, Loss: 235.2178497314453, Base Loss: 235.2178497314453, Regularisation Term: 0.0, Hessian Trace: -11.005411148071289
+Iteration: 129000, Loss: 261.9291076660156, Base Loss: 261.9291076660156, Regularisation Term: 0.0, Hessian Trace: -12.672307014465332
+Iteration: 130000, Loss: 227.07666015625, Base Loss: 227.07666015625, Regularisation Term: 0.0, Hessian Trace: -12.625264167785645
+Iteration: 130000, Loss: 264.0339050292969, Base Loss: 264.0339050292969, Regularisation Term: 0.0, Hessian Trace: -11.449790954589844
+Iteration: 131000, Loss: 240.03839111328125, Base Loss: 240.03839111328125, Regularisation Term: 0.0, Hessian Trace: -10.4159574508667
+Iteration: 131000, Loss: 265.17578125, Base Loss: 265.17578125, Regularisation Term: 0.0, Hessian Trace: -12.84344482421875
+Iteration: 132000, Loss: 238.589599609375, Base Loss: 238.589599609375, Regularisation Term: 0.0, Hessian Trace: -12.124897956848145
+Iteration: 132000, Loss: 262.4282531738281, Base Loss: 262.4282531738281, Regularisation Term: 0.0, Hessian Trace: -11.514410018920898
+Iteration: 133000, Loss: 242.3209991455078, Base Loss: 242.3209991455078, Regularisation Term: 0.0, Hessian Trace: -12.658658027648926
+Iteration: 133000, Loss: 262.37554931640625, Base Loss: 262.37554931640625, Regularisation Term: 0.0, Hessian Trace: -12.486846923828125
+Iteration: 134000, Loss: 237.29891967773438, Base Loss: 237.29891967773438, Regularisation Term: 0.0, Hessian Trace: -14.562416076660156
+Iteration: 134000, Loss: 266.0966491699219, Base Loss: 266.0966491699219, Regularisation Term: 0.0, Hessian Trace: -12.059545516967773
+[2024-08-02 19:48:42,578][scoresbibm.scripts.hydra_script][INFO] - Evaluating method: score_transformer_joint
+[2024-08-02 19:48:42,580][scoresbibm.scripts.hydra_script][INFO] - Evaluating metric: c2st_posterior
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-11.185   1.679  -4.845   0.885   5.74    2.715   1.443   5.037]
+Metric value:  0.8227499723434448
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-1.232 -2.003 -2.946 -4.168 -3.509 -2.684 -1.101 -4.331]
+Metric value:  0.8075000047683716
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-1.387 -4.737 -0.887  0.255 -0.893  0.142 -0.923 -1.719]
+Metric value:  0.8047500252723694
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [2.218 1.988 2.219 2.606 2.22  3.281 2.218 1.619]
+Metric value:  0.9767500162124634
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-0.522 -0.009  0.554  0.214 -2.477 -0.344 -4.683 -0.573]
+Metric value:  0.8227499723434448
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 0.258  2.407 -1.755  1.056 12.672 -1.776  0.223  1.24 ]
+Metric value:  0.8015000224113464
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 3.098 -2.261 -8.009  8.848  0.596 -0.237  8.88  -8.373]
+Metric value:  0.8629999756813049
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [  9.79   18.131  -7.538 -13.125   5.368   8.8    -2.704  -3.553]
+Metric value:  0.8572499752044678
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-7.46  -2.566 -2.082 -2.518  0.904 -2.492 -4.393 -2.588]
+Metric value:  0.8604999780654907
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-4.819 -0.014 14.857 -8.833 -7.667 -0.709  6.859 -4.324]
+Metric value:  0.796999990940094
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-1.829  0.391  0.01  -0.092 -1.188  0.171 -3.081  0.555]
+Metric value:  0.8517500162124634
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [  5.689   7.026  -7.498 -10.52    3.932   4.889   3.828   2.783]
+Metric value:  0.7749999761581421
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-4.513 -2.276  4.743 -0.048  2.885 -0.598 -1.793 -1.333]
+Metric value:  0.7872499823570251
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 1.804  0.181  2.817  3.581  1.056  5.033 -2.048 -4.114]
+Metric value:  0.781000018119812
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-1.575  3.296  0.192 -2.37  -1.739 -6.292 -2.344  4.445]
+Metric value:  0.8222500085830688
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-3.312  0.041 -1.766 -1.193  0.527 -1.866  0.99  -1.289]
+Metric value:  0.793749988079071
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-13.2     0.323  -0.741   0.185   6.727   0.136 -17.074   0.351]
+Metric value:  0.903249979019165
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [  1.308   0.812  -0.505   0.844  -2.361   0.888 -10.45    0.912]
+Metric value:  0.8774999976158142
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-0.544  6.016 -1.798 -7.912  0.79   4.724 -3.208 -7.335]
+Metric value:  0.8015000224113464
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-0.389 -1.346 -0.588 -2.307 -0.711 -2.752 -0.451 -0.984]
+Metric value:  0.8237500190734863
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [  4.685  13.01    4.023   7.668  -0.959  -4.469  -5.705 -17.039]
+Metric value:  0.8119999766349792
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-19.847  -0.333  -3.513  -0.355   9.057  -1.539  -0.194  -6.745]
+Metric value:  0.8964999914169312
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 2.756  2.868 -1.539  5.154  1.813 -3.972  3.873  9.628]
+Metric value:  0.8019999861717224
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ -4.708   2.768  -4.497   4.132 -14.997   7.126  -2.904   2.923]
+Metric value:  0.7727500200271606
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-18.25   -5.713 -12.83   -4.027   5.8     0.284 -16.66   -5.099]
+Metric value:  0.8417500257492065
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-0.948 -0.816 -1.107 -5.517 -0.96  -1.006 -1.092 -4.778]
+Metric value:  0.8995000123977661
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-0.715 -2.743 -0.548 -1.122 -0.502 -0.176 -0.736 -2.47 ]
+Metric value:  0.8447499871253967
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 1.697 -4.533  4.348  9.116  3.656  7.148  2.581  0.74 ]
+Metric value:  0.8364999890327454
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 0.696 -3.502  0.389 -3.934  0.877 -1.613  1.257 -5.254]
+Metric value:  0.7932500243186951
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 1.631 -1.657  2.116 -2.047  2.576 -2.303  2.235 -2.036]
+Metric value:  0.8567500114440918
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [4.39  2.621 3.564 2.627 6.233 2.584 3.437 2.653]
+Metric value:  0.8997499942779541
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 0.929 -1.962  3.431 -2.729 -0.088  6.342  0.628  2.338]
+Metric value:  0.7677500247955322
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ -2.819   5.096  -2.415   3.635  -1.751 -12.609  -2.85    3.095]
+Metric value:  0.8220000267028809
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 2.946 -8.603  2.976 -2.005  2.967 -3.699  2.986 -0.047]
+Metric value:  0.9452499747276306
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-0.737  0.061 -1.899  2.132  1.215 -3.239 -1.99   1.512]
+Metric value:  0.8424999713897705
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-1.642  2.199 -1.805  2.161 -1.768  1.973 -1.962  1.754]
+Metric value:  0.8492500185966492
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-4.218  4.254  1.993  0.522  4.772 -3.312  5.084 -3.29 ]
+Metric value:  0.8212500214576721
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [0.601 1.686 2.208 1.814 0.759 1.708 0.394 1.654]
+Metric value:  0.8757500052452087
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 8.612 -1.861 -0.305 -1.817  2.222 -1.757 -1.075 -1.745]
+Metric value:  0.8610000014305115
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 0.051 -0.88   0.922  6.23   1.082  1.411 -1.129 -2.89 ]
+Metric value:  0.7789999842643738
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [  3.175 -10.112   1.412   2.562   1.473  -3.143   1.264   4.219]
+Metric value:  0.7944999933242798
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-1.032  0.572  1.614 -5.828  0.706 -3.599  1.193 -4.18 ]
+Metric value:  0.8619999885559082
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 7.301 -8.283 -3.634  1.488 -4.265  0.162  8.025 -9.691]
+Metric value:  0.828499972820282
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-3.418  2.604 -2.736  1.979 -2.444  1.973 -3.227  3.459]
+Metric value:  0.8234999775886536
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 1.672  0.59   1.842  5.035  1.226  7.471  1.321 -1.382]
+Metric value:  0.8130000233650208
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [  2.847   2.761   2.87   -2.621   2.858   5.336   2.805 -10.014]
+Metric value:  0.8942499756813049
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 0.596 -1.639  0.537 -4.978  0.489  7.114  0.962 -9.609]
+Metric value:  0.8264999985694885
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [ 0.486 -2.721 -0.57  -2.533  1.475 -2.858 -0.76  -2.539]
+Metric value:  0.8554999828338623
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-0.241 -0.283 -2.492 -1.088 -6.889 -2.231 -0.844 -0.775]
+Metric value:  0.8209999799728394
+Conditional:  [False False False False False  True  True  True  True  True  True  True
+  True] [-2.102  0.653 -3.469  8.214 -3.606  9.417 -2.877  3.563]
+Metric value:  0.8337500095367432

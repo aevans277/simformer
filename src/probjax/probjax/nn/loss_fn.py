@@ -148,6 +148,7 @@ def denoising_score_matching_loss(
     base_loss = jnp.mean(base_loss)
 
 
+    ### 2ND ORDER ADJUSTMENTS ###
     key, subkey = jax.random.split(key)
     hutchinson_eps = jax.random.normal(subkey, shape=xs_t.shape)  # {epsilon} generates noise
 
@@ -155,7 +156,7 @@ def denoising_score_matching_loss(
     score_pred_noisy = model_fn(params, times, xs_t + hutchinson_eps, *args, **kwargs)  # {s_phi(perturbed data)}
     score_hess = jnp.mean(jnp.sum(hutchinson_eps * (score_pred_noisy - score_pred), axis=-1))  # {hessian trace}
 
-    gamma = 0
+    gamma = 1e-3
     #reg_term = gamma*(score_hess**2)
     #reg_term = gamma * jax.numpy.abs(score_hess)
     reg_term = gamma * score_hess
